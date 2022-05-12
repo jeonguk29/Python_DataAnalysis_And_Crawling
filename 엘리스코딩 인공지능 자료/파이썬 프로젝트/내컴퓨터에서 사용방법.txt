@@ -1,0 +1,23 @@
+제 컴퓨터에서도 이런식으로 실행이
+
+가능 한건가여?
+
+4:15 PM
+김경민
+네 ipynb 파일을 실행할 수 있다면 가능합니다.
+
+4:16 PM
+김경민
+https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+
+visual studio code라는 프로그램을 사용하여 ipynb 파일을 실행하는 예시입니다.
+
+
+저장을 어떨게 하면 될까요 .csv 파일 과 폴더들도 저장하려고 하는데
+
+한번에 가져갈수 있는 방법이 있을까요?
+
+
+주피터 노트북 상의 폴더를 다운로드 할 수 있는 방법은 공식적으로 제공되지는 않지만, 업로드된 파일들을 하나의 폴더로 몰아넣고 압축파일로 만든 다음 다운로드를 할 수 있는 것으로 보입니다.
+
+https://aiden1004.tistory.com/entry/%EC%A3%BC%ED%94%BC%ED%84%B0-%EB%85%B8%ED%8A%B8%EB%B6%81%EB%9E%A9-%ED%8F%B4%EB%8D%94-%ED%95%9C%EB%B2%88%EC%97%90-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0
