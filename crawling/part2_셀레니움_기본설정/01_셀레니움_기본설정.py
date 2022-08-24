@@ -13,6 +13,9 @@ chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
 
+# 불필요한 에러 메시지 없애기
+chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
+
 # 이놈은 크롬 드라이버 매니저 라는 놈을 통해서 자동으로 크롬 드라이버를 최신으로 설치하고 가져오게 하는 것임
 service = Service(executable_path=ChromeDriverManager().install())
 # 웹브라우저 가져올건데 위에서 정의한 최신버전으로 가져와라 

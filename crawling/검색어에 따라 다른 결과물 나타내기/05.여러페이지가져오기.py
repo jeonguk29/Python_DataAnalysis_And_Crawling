@@ -8,8 +8,9 @@ lastpage = pyautogui.prompt("마지막 페이지번호를 입력해 주세요")
 
 
 pageNum = 1
+# for i in range(시작, 끝, 단계):        1, 10, 2 면    1부터 2씩 들어남 ex 1 3 5 7 9
 
-for i in range(1,int(lastpage) * 10,10):   # 1페이지 부터 3페이지까지  1, 11, 21
+for i in range(1,int(lastpage) * 10,10):   # 1페이지 부터 3페이지까지  1, 11, 21  
     print(f"{pageNum} 페이지 입니다.======================================")
 
     # URL 파라미터는 키와 벨류 값으로 되어있는데 크롤링 할때 이부분이 매우 중요함 쿼리 부분 이 바뀌면 검색명이 달라지는 것임 
